@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Nav Bar Styling */
+.navContainer {
+  background-color: #6BA8FF;
+
+}
+
+.navContentContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+  padding: 25px;
+  align-items: center;
+}
+
+.navTitle {
+  margin: 7px 0;
+  font-size: 300%;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.linkItems {
+  margin: 7px 0;
+  text-decoration: none;
+  padding: 8px 0;
+}
+
+.navLinkItems {
+  border-left: 1px solid #1B79FE;
+  transition: background-color .35s linear;
+}
+
+.navLinkItems:first-of-type {
+  margin-left: 50px;
+}
+
+.linkItems a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 15px;
+}
+
+.navLinkItems:hover {
+  transition: background-color .35s linear;
+  background-color: #1B79FE;
+}
+/* End Nav Styling */
+
+
+/* Content Styling */
+
+.welcomePhoto {
+  background-image: url("images/doc_office.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+
+.welcomeMessage{
+  color: #6BA8FF;
+  padding: 10% 20%;
+  text-shadow: 0 0 .07em black;
+  text-align: center;
+  font-size: 100px;
+}
+
+.subHeading {
+  background-color: #e4e4e4;
+  display: flex;
+  justify-content: center;
+}
+
+.subHeadingText {
+  padding: 11px 0;
+  text-align: center;
+  width: 40%;
+  font-style: italic;
+}
+
+.mainContent {
+  margin: 0 200px;
+  text-align: center;
+}
+
+.trioBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.trioBoxText {
+  padding: 5px 10px;
+  width: 33%;
+  border-left: 1px solid #33333382;
+}
+
+.trioBoxText:first-of-type {
+  border-left: none;
+}
+
+.mainText {
+  margin: 30px 0 0 0;
+  line-height: 22px;
+}
+
+.standardContent {
+  text-align: left;
+}
+
+/* Footer */
+
+.footerContainer{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+
+.footerContentContainer {
+  padding: 6px 25px;
+}
