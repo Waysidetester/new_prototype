@@ -7,15 +7,19 @@
 /* Nav Bar Styling */
 .navContainer {
   background-color: #6BA8FF;
+  display: flex;
+  justify-content: space-between;
 
 }
 
 .navContentContainer {
   display: flex;
   justify-content: space-between;
-  margin: 0 10px;
+  margin: 0 auto;
   padding: 25px;
   align-items: center;
+  max-width: 1200px;
+  width 70%;
 }
 
 .navTitle {
@@ -35,6 +39,7 @@
   margin: 7px 0;
   text-decoration: none;
   padding: 8px 0;
+  text-align: center;
 }
 
 .navLinkItems {
@@ -89,6 +94,7 @@
   text-align: center;
   width: 40%;
   font-style: italic;
+  max-width: 1200px;
 }
 
 .mainContent {
@@ -104,8 +110,9 @@
 
 .trioBoxText {
   padding: 5px 10px;
-  width: 33%;
+  width: 100%;
   border-left: 1px solid #33333382;
+  font-size: 18px;
 }
 
 .trioBoxText:first-of-type {
@@ -118,12 +125,25 @@
 }
 
 .standardContent {
-  text-align: left;
+  text-align: justify;
+}
+
+.img-textContainer {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.icon {
+  height: 100px;
 }
 
 /* Footer */
 
 .footerContainer{
+  margin-top: 20px;
   background-color: black;
   color: white;
   font-size: 20px;
@@ -131,4 +151,9 @@
 
 .footerContentContainer {
   padding: 6px 25px;
+  max-width: 1200px;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
 }
