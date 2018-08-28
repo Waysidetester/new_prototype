@@ -26,9 +26,10 @@ body {
   width 70%;
 }
 
-.navTitle {
+.navLogo {
   margin: 7px 0;
-  font-size: 300%;
+  width: 150px;
+  height: auto;
 }
 
 .navLinks {
@@ -71,7 +72,7 @@ body {
 /* Content Styling */
 
 .welcomePhoto {
-  background-image: url("images/doc_office.jpg");
+  background-image: url("images/medical-practice-management-blur.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -110,13 +111,14 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-bottom: 75px;
 }
 
 .trioBoxText {
   padding: 5px 10px;
   width: 100%;
   border-left: 1px solid #33333382;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .trioBoxText:first-of-type {
@@ -142,6 +144,24 @@ body {
 
 .icon {
   height: 100px;
+}
+
+.bottomContentContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottomContent {
+  margin-right: 75px;
+  vertical-align: center;
+  font-size: 20px;
+}
+
+.whiteGlove {
+  max-height: 300px;
+  width: auto;
 }
 
 /* End Content Styling */
