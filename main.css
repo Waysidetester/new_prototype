@@ -8,6 +8,8 @@ body {
   background-color: rgb(221, 241, 253);
 }
 
+
+
 /* Nav Bar Styling */
 .navContainer {
   background-color: rgb(154, 218, 255);
@@ -22,7 +24,7 @@ body {
   margin: 0 auto;
   align-items: center;
   max-width: 1200px;
-  width:S 70%;
+  width: 70%;
 }
 
 .navLogo {
@@ -204,6 +206,8 @@ body {
   margin: auto 100px;
   text-align: center;
   min-width: 300px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .aboutListImage {
@@ -215,6 +219,25 @@ body {
 }
 
 /* end about.html styling */
+
+/* brachytherapy.html styling */
+
+.brachyTitle {
+  margin-top: 35px;
+}
+
+.brachyText {
+  margin: 13px 10%;
+  text-align: left;
+}
+
+iframe {
+  margin: 50px 0;
+  width: 60%;
+  height: 50%;
+}
+
+/* end brachytherapy.html styling */
 
 /* Footer */
 
