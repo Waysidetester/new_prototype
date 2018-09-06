@@ -229,6 +229,7 @@ body {
 .brachyText {
   margin: 13px 10%;
   text-align: left;
+  font-family: 'PT Sans', sans-serif;
 }
 
 iframe {
