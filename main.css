@@ -5,12 +5,12 @@
 }
 
 body {
-  background-color: rgb(196, 232, 253);
+  background-color: rgb(221, 241, 253);
 }
 
 /* Nav Bar Styling */
 .navContainer {
-  background-color: rgb(196, 232, 253);
+  background-color: rgb(154, 218, 255);
   display: flex;
   justify-content: space-between;
 
@@ -22,7 +22,7 @@ body {
   margin: 0 auto;
   align-items: center;
   max-width: 1200px;
-  width 70%;
+  width:S 70%;
 }
 
 .navLogo {
@@ -69,7 +69,7 @@ body {
 /* End Nav Styling */
 
 
-/* Content Styling */
+/* index.html styling */
 
 .welcomePhoto {
   background-image: url("images/medical-practice-management-blur.jpg");
@@ -164,7 +164,57 @@ body {
   width: auto;
 }
 
-/* End Content Styling */
+/* end index.html styling */
+
+/* about.html specific styling */
+
+.aboutContentContainer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutDescription {
+  margin-right: 80px;
+}
+
+.aboutTitle {
+  text-align: left;
+}
+
+.aboutText {
+  text-align: justify;
+  margin: 10px 0;
+
+}
+
+.aboutListItem {
+  margin: 25px 0;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  text-align: justify;
+}
+
+.aboutListItem:nth-of-type(2n) {
+  flex-direction: row-reverse;
+}
+
+.aboutListText {
+  margin: auto 100px;
+  text-align: center;
+  min-width: 300px;
+}
+
+.aboutListImage {
+  width: auto;
+  height: 333.33px;
+  box-shadow: 0 0 100px rgb(81, 145, 156);
+  border-radius: 10px;
+  overflow: visible;
+}
+
+/* end about.html styling */
 
 /* Footer */
 
